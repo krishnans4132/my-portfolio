@@ -1,10 +1,11 @@
 [
   {
-    "role": "NOT YET EXPLORED ",
-    "organisation": "",
-    "startDate": "",
-    "endDate": "",
-    "experiences": [],
+    "role": "SWE intern ",
+    "organisation": "BPCL Kochi Refinery",
+    "startDate": " 02/05/2025 ",
+    "endDate": "13/05/2025",
+    "experiences": ["redesign of E-register","Multi database reportgenerator"],
     "imageSrc": "history/aa6xj9k71.webp"
   }
 ]
+ 

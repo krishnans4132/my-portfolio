@@ -3,7 +3,9 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
+
 export const Hero = () => {
+  const resume = "assets/hero/resume.pdf";
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -17,8 +19,8 @@ export const Hero = () => {
           Contact Me
         </a>
         <hr></hr>
-        <a href="/resume.pdf"className={styles.resume} > 
-        View My Resume (PDF)
+        <a href={resume} download className={styles.resume} > 
+         Download resume
         </a>
       </div>
       <img
