@@ -15,7 +15,12 @@ export const Hero = () => {
            React and Node.js. Always eager to learn and open to collaborations
            —let's build something together!
         </p>
-        <a href="mailto:kris2005f24@gmail.com" className={styles.contactBtn}>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=kris2005f24@gmail.com&su=Hello&body=Hi%20Krishnan,"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.contactBtn}
+        >
           Contact Me
         </a>
         <hr></hr>
