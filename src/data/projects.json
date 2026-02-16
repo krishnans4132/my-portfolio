@@ -1,19 +1,43 @@
 [
   {
-    "title": "My Portfoilo",
+    "title": "Soundarya’s Boutique | E-commerce Platform",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app like react.",
-    "skills": ["React", "HTML", "Node","CSS"],
-    "demo": "https://krishnans4132.github.io/my-portfolio/",
-    "source": "https://github.com/krishnans4132/my-portfolio"
+    "description": "Developed a full-stack e-commerce application using Next.js 15 and MongoDB, integrating Stripe webhooks for real-time order processing. Built a comprehensive Admin Dashboard featuring Recharts and jsPDF.",
+    "skills": [
+      "Next.js 15",
+      "MongoDB",
+      "Stripe",
+      "Twilio",
+      "NextAuth",
+      "Recharts",
+      "jsPDF"
+    ],
+    "demo": "https://soundaryas-boutique-web.vercel.app/",
+    "source": "https://github.com/Soundaryas-Boutique/soundaryas_boutique"
   },
   {
-    "title": "Noire",
-    "imageSrc": "projects/close.png",
-    "description": "I'm currently working on an ongoing e-commerce project with a team of four members, including myself.",
-    "skills": ["React", "HTML", "Node","CSS","JS","Express" ],
-    "demo": "https://noire-sepia.vercel.app/",
-    "source": "https://github.com/karthikvishal-s/Noire"
+    "title": "Eat Right, Feel Bright",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a gamified learning platform featuring real-time score tracking and interactive audio feedback. Implemented complex state management logic using React Hooks.",
+    "skills": [
+      "React.js",
+      "JavaScript",
+      "CSS3"
+    ],
+    "demo": "https://eat-right-feel-bright.vercel.app/",
+    "source": "https://github.com/krishnans4132/Eat-right-Feel-bright"
+  },
+  {
+    "title": "NYX – Lost and Found Platform (Ongoing)",
+    "imageSrc": "projects/project.png",
+    "description": "Building a Flutter-based mobile application for reporting and managing lost-and-found items. Developing a RESTful backend in Go (Gin) to handle business logic and PostgreSQL data persistence.",
+    "skills": [
+      "Flutter",
+      "Go (Gin)",
+      "React",
+      "PostgreSQL"
+    ],
+    "demo": "https://github.com/KiranRajeev-KV/nyx-app",
+    "source": "https://github.com/KiranRajeev-KV/nyx-app"
   }
-
 ]
