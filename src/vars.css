@@ -1,11 +1,17 @@
 :root {
-  /* Colours */
-  --color-text: #fff;
+  /* Premium Original Blue Theme Colors */
+  --color-text: #ffffff;
+  --color-text-muted: #cbd5e1;
   --color-primary: #576cbc;
+  --color-primary-hover: #6a82db;
   --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #828588;
+  --color-bg-dark: #0b2447;
+  --color-bg-card: rgba(25, 55, 109, 0.4);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(25, 55, 109, 0.3);
+  --glass-border: rgba(87, 108, 188, 0.3);
 
   /* Fonts */
-  --font-roboto: "Roboto";
+  --font-roboto: "Outfit", sans-serif;
 }

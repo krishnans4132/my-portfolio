@@ -37,13 +37,22 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 120px;
   height: 120px;
+  transition: all 0.3s ease;
+}
+
+.skillImageContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.3);
+  border-color: var(--color-secondary);
 }
 
 .skillImageContainer img {
@@ -51,9 +60,28 @@
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: var(--font-roboto);
   font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.skillNameExtra {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.skillNameExtraInner {
+  overflow: hidden;
+}
+
+.skill:hover .skillNameExtra {
+  grid-template-rows: 1fr;
+  opacity: 1;
 }
 
 .history {
@@ -68,10 +96,18 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
   padding: 24px;
+  transition: transform 0.3s ease;
+}
+
+.historyItem:hover {
+  transform: translateX(10px);
 }
 
 .historyItem img {
@@ -83,21 +119,58 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.historyItem:hover .historyItemDetails h3 {
+  color: var(--color-primary);
+}
+
+.historyItemExtra {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease, margin-top 0.4s ease;
+  margin-top: 0;
+}
+
+.historyItemExtraInner {
+  overflow: hidden;
+}
+
+.historyItem:hover .historyItemExtra {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  margin-top: 12px;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-text-muted);
 }
 
 .historyItemDetails ul {
-  margin-top: 6px;
+  margin-top: 12px;
   list-style-position: inside;
-  font-size: 25px;
-  list-style-type: disc;
-  margin-left: 17px;
+  font-size: 18px;
+  color: var(--color-text-muted);
+  list-style-type: none;
+}
+
+.historyItemDetails ul li {
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.historyItemDetails ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 830px) {

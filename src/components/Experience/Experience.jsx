@@ -17,7 +17,11 @@ export const Experience = () => {
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>
-                <p>{skill.title}</p>
+                <div className={styles.skillNameExtra}>
+                  <div className={styles.skillNameExtraInner}>
+                    <p>{skill.title}</p>
+                  </div>
+                </div>
               </div>
             );
           })}
@@ -32,12 +36,16 @@ export const Experience = () => {
                 />
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
+                  <div className={styles.historyItemExtra}>
+                    <div className={styles.historyItemExtraInner}>
+                      <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                      <ul>
+                        {historyItem.experiences.map((experience, id) => {
+                          return <li key={id}>{experience}</li>;
+                        })}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </li>
             );

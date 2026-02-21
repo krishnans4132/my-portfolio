@@ -11,9 +11,8 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Krishnan</h1>
         <p className={styles.description}>
-          I'm a third-year CSE student at Amrita Vishwa Vidyapeetham, exploring full-stack development with
-           React and Node.js. Always eager to learn and open to collaborations
-           —let's build something together!
+          I'm a third-year CSE student at Amrita Vishwa Vidyapeetham, exploring full-stack development . Always eager to learn and open to collaborations
+          —let's build something together!
         </p>
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=kris2005f24@gmail.com&su=Hello&body=Hi%20Krishnan,"
@@ -24,12 +23,12 @@ export const Hero = () => {
           Contact Me
         </a>
         <hr></hr>
-        <a href={resume} download className={styles.resume} > 
-         Download resume
+        <a href={resume} download className={styles.resume} >
+          Download resume
         </a>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/unnamed.jpg")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

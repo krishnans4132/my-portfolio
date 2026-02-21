@@ -1,20 +1,36 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 30px;
+  left: 10%;
+  right: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
+  padding: 20px 40px;
+  z-index: 100;
+  /* Increased z-index to stay above other elements */
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbarHidden {
+  transform: translateY(-150%);
+  pointer-events: none;
 }
 
 .title {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   color: var(--color-text);
+  letter-spacing: 1px;
 }
 
 
@@ -33,9 +49,16 @@
 }
 
 .menuItems a {
-  font-size: 25px;
-  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-text-muted);
   text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.menuItems a:hover {
+  color: var(--color-text);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width: 830px) {
@@ -66,11 +89,9 @@
     gap: 13px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: linear-gradient(0deg,
+        rgba(25, 55, 109, 0.2) 0%,
+        rgba(25, 55, 109, 1) 100%);
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }

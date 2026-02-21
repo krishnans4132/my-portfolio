@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,4 +9,11 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text);
+  overflow-x: hidden;
 }
