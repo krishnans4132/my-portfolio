@@ -39,5 +39,13 @@
     ],
     "demo": "https://github.com/KiranRajeev-KV/nyx-app",
     "source": "https://github.com/KiranRajeev-KV/nyx-app"
+  },
+  {
+    "title": "AdIntel: Advertisement Fatigue Study",
+    "imageSrc": "projects/project.png",
+    "description": "Investigated advertisement fatigue in mobile apps using survey data and NLP analysis of Play Store reviews. Developed a machine learning suite for predicting fatigue indices and sentiment, featuring a live-training FastAPI backend and a React dashboard.",
+    "skills": ["Python", "FastAPI", "React", "Scikit-learn", "NLP", "Tableau"],
+    "demo": "https://data-driven-targeted-advertising-h1.vercel.app/",
+    "source": "https://github.com/krishnans4132/data-driven-targeted-advertising"
   }
 ]

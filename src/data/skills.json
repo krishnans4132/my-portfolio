@@ -38,5 +38,9 @@
   {
     "title": "Javascript",
     "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "Tableau",
+    "imageSrc": "skills/tableau.png"
   }
 ]
