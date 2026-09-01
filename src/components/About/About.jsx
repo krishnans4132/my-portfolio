@@ -10,38 +10,38 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/browsing.png")}
-          alt="my other picture"
+          alt="Developer working at a computer"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Full-Stack Developer</h3>
+              <h3>AI & Full-Stack Developer</h3>
               <p>
-                I'm currently diving into full-stack development,
-                building real-world web applications using tools like React, Node.js, and Express.
+                I build practical AI-powered web applications using Python,
+                React, Flask, FastAPI, and modern backend technologies.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Passionate Learner & Collaborator</h3>
+              <h3>Computer Science & Problem Solving</h3>
               <p>
-                As a third-year CSE student at Amrita Vishwa Vidyapeetham, 
-                I'm a fast learner who loves working with others on meaningful, challenging projects.
+                As a third-year CSE student at Amrita Vishwa Vidyapeetham, I
+                enjoy applying data structures, algorithms, and software
+                engineering principles to meaningful problems.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Skilled in Multiple Languages & Tools</h3>
+              <h3>Cloud, Data & Delivery</h3>
               <p>
-                 I work with Python, C++, C, Haskell, Java, HTML, CSS, 
-                 JavaScript, and tools like GitHub, VS Code, Vite, and 
-                 Figma to build and design optimized solutions.
+                I work across Docker, Kubernetes, CI/CD, Linux, Hadoop, and
+                database systems to build reliable end-to-end solutions.
               </p>
             </div>
           </li>

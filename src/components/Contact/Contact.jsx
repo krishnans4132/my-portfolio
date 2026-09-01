@@ -18,18 +18,18 @@ export const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactBtn}
-            >gmail</a>
+            >Email</a>
         </li>
         <li className={styles.link}>
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/krishnan-s-7ab8b22b4">linkedin</a>
+          <a href="https://www.linkedin.com/in/krishnan-s-7ab8b22b4">LinkedIn</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/krishnans4132">github</a>
+          <a href="https://www.github.com/krishnans4132">GitHub</a>
         </li>
       </ul>
     </footer>

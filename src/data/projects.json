@@ -1,51 +1,68 @@
 [
   {
-    "title": "Soundarya’s Boutique | E-commerce Platform",
+    "title": "DriveAlert AI: Real-Time Driver Fatigue Detection",
     "imageSrc": "projects/project.png",
-    "description": "Developed a full-stack e-commerce application using Next.js 15 and MongoDB, integrating Stripe webhooks for real-time order processing. Built a comprehensive Admin Dashboard featuring Recharts and jsPDF.",
+    "description": "Built a real-time driver fatigue and microsleep detection prototype using webcam monitoring, MobileNetV3-Small inference, adaptive temporal risk thresholds, voice alerts, and simulated rest-stop rerouting.",
     "skills": [
-      "Next.js 15",
-      "MongoDB",
-      "Stripe",
-      "Twilio",
-      "NextAuth",
-      "Recharts",
-      "jsPDF"
+      "Python",
+      "React",
+      "Deep Learning",
+      "OpenCV",
+      "MediaPipe"
     ],
+    "source": "https://github.com/krishnans4132/DriveAI"
+  },
+  {
+    "title": "AdIntel: Advertisement Fatigue Analytics",
+    "imageSrc": "projects/project.png",
+    "description": "Analyzed 411 survey responses and 225K+ app reviews, then built an ML analytics platform for advertisement-fatigue prediction, user segmentation, and complaint forecasting.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Scikit-learn",
+      "NLP",
+      "Prophet"
+    ],
+    "demo": "https://data-driven-targeted-advertising-h1.vercel.app/",
+    "source": "https://github.com/krishnans4132/data-driven-targeted-advertising"
+  },
+  {
+    "title": "Selvam Medicals - MediVision AI: Face-Recognition Module",
+    "imageSrc": "projects/project.png",
+    "description": "Built a camera-based face-recognition workflow for Selvam Medicals' AI-powered pharmacy ERP, covering customer enrollment, matching, identification, API schemas, database models, and dashboard integration.",
+    "skills": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "face-api.js"
+    ],
+    "source": "https://github.com/Shravanthi20/Medi_Vision_AI"
+  },
+  {
+    "title": "Soundarya’s Boutique: E-Commerce Platform",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a full-stack e-commerce platform with real-time order processing, inventory updates, sales analytics, downloadable reports, role-based authentication, and automated messaging.",
+    "skills": ["Next.js", "MongoDB", "Stripe", "Twilio", "NextAuth"],
     "demo": "https://soundaryas-boutique-web.vercel.app/",
     "source": "https://github.com/Soundaryas-Boutique/soundaryas_boutique"
   },
   {
-    "title": "Eat Right, Feel Bright",
+    "title": "NYX: Lost and Found Platform (Ongoing)",
     "imageSrc": "projects/project.png",
-    "description": "Developed a gamified learning platform featuring real-time score tracking and interactive audio feedback. Implemented complex state management logic using React Hooks.",
-    "skills": [
-      "React.js",
-      "JavaScript",
-      "CSS3"
-    ],
-    "demo": "https://eat-right-feel-bright.vercel.app/",
-    "source": "https://github.com/krishnans4132/Eat-right-Feel-bright"
-  },
-  {
-    "title": "NYX – Lost and Found Platform (Ongoing)",
-    "imageSrc": "projects/project.png",
-    "description": "Building a Flutter-based mobile application for reporting and managing lost-and-found items. Developing a RESTful backend in Go (Gin) to handle business logic and PostgreSQL data persistence.",
-    "skills": [
-      "Flutter",
-      "Go (Gin)",
-      "React",
-      "PostgreSQL"
-    ],
+    "description": "Building a Flutter mobile application for reporting and managing lost-and-found items, supported by a Go REST API and PostgreSQL data persistence.",
+    "skills": ["Flutter", "Go (Gin)", "React", "PostgreSQL"],
     "demo": "https://github.com/KiranRajeev-KV/nyx-app",
     "source": "https://github.com/KiranRajeev-KV/nyx-app"
   },
   {
-    "title": "AdIntel: Advertisement Fatigue Study",
+    "title": "Eat Right, Feel Bright",
     "imageSrc": "projects/project.png",
-    "description": "Investigated advertisement fatigue in mobile apps using survey data and NLP analysis of Play Store reviews. Developed a machine learning suite for predicting fatigue indices and sentiment, featuring a live-training FastAPI backend and a React dashboard.",
-    "skills": ["Python", "FastAPI", "React", "Scikit-learn", "NLP", "Tableau"],
-    "demo": "https://data-driven-targeted-advertising-h1.vercel.app/",
-    "source": "https://github.com/krishnans4132/data-driven-targeted-advertising"
+    "description": "Developed a gamified learning platform that helps children learn healthy food habits through interactive food sorting, real-time score tracking, guided audio cues, and positive feedback.",
+    "skills": ["React", "JavaScript", "CSS"],
+    "demo": "https://eat-right-feel-bright.vercel.app/",
+    "source": "https://github.com/krishnans4132/Eat-right-Feel-bright"
   }
 ]

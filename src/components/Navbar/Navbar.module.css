@@ -36,6 +36,9 @@
 
 .menuBtn {
   display: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .menu {
@@ -80,6 +83,10 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+  }
+
+  .menuBtn img {
+    display: block;
   }
 
   .menuItems {

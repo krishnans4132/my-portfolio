@@ -1,10 +1,26 @@
 [
   {
+    "role": "AI & Full-Stack Development Intern",
+    "organisation": "Selvam Medicals - MediVision AI",
+    "startDate": "Apr 2026",
+    "endDate": "May 2026",
+    "experiences": [
+      "Built a camera-based face-recognition workflow for customer enrollment, matching, and identification",
+      "Connected the Flask backend and browser dashboard through REST APIs, schemas, and database models",
+      "Improved reliability through migration, route, automated test, and CI fixes"
+    ],
+    "initials": "MV"
+  },
+  {
     "role": "SWE Intern",
     "organisation": "BPCL Kochi Refinery",
     "startDate": " 02/05/2025 ",
     "endDate": "13/05/2025",
-    "experiences": ["Redesign of E-register","Multi database report generator"],
+    "experiences": [
+      "Redesigned a critical E-Register application, improving operational data accuracy by 25% across refinery workflows",
+      "Developed a multi-database report workflow integrating SAP ERP and IP21, reducing preparation time from hours to minutes",
+      "Analyzed enterprise application and refinery network architecture, then documented the systems, workflows, data integration, and network design"
+    ],
     "imageSrc": "history/aa6xj9k71.webp"
   }
 ]

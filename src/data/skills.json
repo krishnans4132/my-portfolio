@@ -1,46 +1,61 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "Languages",
+    "skills": [
+      { "name": "Python", "imageSrc": "skills/python.png" },
+      { "name": "Java", "imageSrc": "skills/java.png" },
+      { "name": "JavaScript", "imageSrc": "skills/js.png" },
+      { "name": "C++", "imageSrc": "skills/c++.png" },
+      { "name": "C", "imageSrc": "skills/c.png" },
+      { "name": "SQL", "imageSrc": "skills/icons/database.svg", "monochrome": true, "type": "skill" },
+      { "name": "Haskell", "imageSrc": "skills/haskell1.png" }
+    ]
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css1.png"
+    "title": "AI / ML",
+    "skills": [
+      { "name": "Machine Learning", "imageSrc": "skills/icons/brain-cog.svg", "monochrome": true, "type": "skill" },
+      { "name": "Deep Learning", "imageSrc": "skills/icons/brain-circuit.svg", "monochrome": true, "type": "skill" },
+      { "name": "NLP", "imageSrc": "skills/icons/languages.svg", "monochrome": true, "type": "skill" },
+      { "name": "Computer Vision", "imageSrc": "skills/icons/scan-eye.svg", "monochrome": true, "type": "skill" },
+      { "name": "Scikit-learn", "imageSrc": "skills/icons/scikitlearn.svg" },
+      { "name": "TensorFlow", "imageSrc": "skills/icons/tensorflow.svg" },
+      { "name": "Time-Series Forecasting", "imageSrc": "skills/icons/chart-spline.svg", "monochrome": true, "type": "skill" },
+      { "name": "Tableau", "imageSrc": "skills/tableau.png" }
+    ]
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "Web & Backend",
+    "skills": [
+      { "name": "React", "imageSrc": "skills/react.png" },
+      { "name": "Next.js", "imageSrc": "skills/icons/nextjs.svg" },
+      { "name": "Node.js", "imageSrc": "skills/node1.png" },
+      { "name": "Express.js", "imageSrc": "skills/icons/express.svg", "monochrome": true },
+      { "name": "FastAPI", "imageSrc": "skills/icons/fastapi.svg" },
+      { "name": "Flask", "imageSrc": "skills/icons/flask.svg", "monochrome": true },
+      { "name": "SQLAlchemy", "imageSrc": "skills/icons/sqlalchemy.svg" },
+      { "name": "HTML", "imageSrc": "skills/html.png" },
+      { "name": "CSS", "imageSrc": "skills/css1.png" },
+      { "name": "Tailwind CSS", "imageSrc": "skills/icons/tailwindcss.svg" }
+    ]
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node1.png"
+    "title": "Big Data",
+    "skills": [
+      { "name": "Apache Hadoop", "imageSrc": "skills/icons/hadoop.svg" },
+      { "name": "MapReduce", "imageSrc": "skills/icons/split.svg", "monochrome": true, "type": "skill" },
+      { "name": "HDFS", "imageSrc": "skills/icons/hard-drive.svg", "monochrome": true, "type": "skill" },
+      { "name": "Distributed Data Processing", "imageSrc": "skills/icons/network.svg", "monochrome": true, "type": "skill" },
+      { "name": "Big Data Analytics", "imageSrc": "skills/icons/chart-bar-big.svg", "monochrome": true, "type": "skill" }
+    ]
   },
   {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
-  },
-  {
-    "title": "C++",
-    "imageSrc": "skills/c++.png"
-  },
-  {
-    "title": "JAVA",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "C ",
-    "imageSrc": "skills/c.png"
-  },
-  {
-    "title": "Haskell",
-    "imageSrc": "skills/haskell1.png"
-  },
-  {
-    "title": "Javascript",
-    "imageSrc": "skills/js.png"
-  },
-  {
-    "title": "Tableau",
-    "imageSrc": "skills/tableau.png"
+    "title": "Databases",
+    "skills": [
+      { "name": "PostgreSQL", "imageSrc": "skills/icons/postgresql.svg" },
+      { "name": "MongoDB", "imageSrc": "skills/icons/mongodb.svg" },
+      { "name": "MySQL", "imageSrc": "skills/icons/mysql.svg" },
+      { "name": "SQL / NoSQL", "imageSrc": "skills/icons/database-zap.svg", "monochrome": true, "type": "skill" }
+    ]
   }
 ]
