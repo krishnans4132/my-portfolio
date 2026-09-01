@@ -94,16 +94,17 @@
 }
 
 .skillNameExtra {
-  display: grid;
-  grid-template-rows: 0fr;
+  display: block;
   width: 120px;
+  height: 18px;
   opacity: 0;
   text-align: center;
-  transition: grid-template-rows 0.3s ease, opacity 0.3s ease;
+  transform: translateY(-5px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .skillNameExtraInner {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .skillNameExtra p {
@@ -113,8 +114,8 @@
 }
 
 .skill:hover .skillNameExtra {
-  grid-template-rows: 1fr;
   opacity: 1;
+  transform: translateY(0);
 }
 
 .history {
@@ -254,7 +255,7 @@
 
 @media (hover: none) {
   .skillNameExtra {
-    grid-template-rows: 1fr;
     opacity: 1;
+    transform: none;
   }
 }
